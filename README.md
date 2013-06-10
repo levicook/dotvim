@@ -1,6 +1,8 @@
 dotvim
 ======
 
+```bash
+
 levi@tums:~
 $ rm .vimrc
 
@@ -176,3 +178,5 @@ xcrun cc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ru
 xcrun cc -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin12.0 -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin12.0 -I. -DHAVE_RUBY_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   -std=c99 -Wall -Wextra -Wno-unused-parameter -c matcher.c
 cc -arch i386 -arch x86_64 -pipe -bundle -undefined dynamic_lookup -o ext.bundle ext.o match.o matcher.o -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L. -arch i386 -arch x86_64     -lruby  -lpthread -ldl -lobjc
 
+
+```
