@@ -46,3 +46,6 @@
 [submodule "bundle/vim-toml"]
 	path = bundle/vim-toml
 	url = git://github.com/cespare/vim-toml.git
+[submodule "bundle/vim-haml"]
+	path = bundle/vim-haml
+	url = https://github.com/tpope/vim-haml.git
