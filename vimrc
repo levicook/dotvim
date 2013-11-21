@@ -13,6 +13,7 @@ map pf :cpfile<CR>
 
 set nowrap
 set autoindent
+set undodir=/tmp
 
 autocmd Filetype go         setlocal shiftwidth=2 softtabstop=2 tabstop=2
 autocmd Filetype html       setlocal shiftwidth=2 softtabstop=2 tabstop=2
@@ -31,3 +32,7 @@ autocmd BufNewFile,BufReadPost *.coffee setlocal shiftwidth=2 softtabstop=2 tabs
 autocmd BufNewFile,BufRead *.sls set filetype=yaml
 
 set background=light
+
+set noignorecase
+
+let NERDTreeIgnore=['\~$', 'bower_components', 'bower.json', 'dist', 'node_modules', 'package.json']
